@@ -12,7 +12,7 @@ internal class MockBankDataSourceTest {
         
         
         // when
-        val banks = mockDataSource.getBanks()
+        val banks = mockDataSource.retrieveBanks()
         
         
         // then
